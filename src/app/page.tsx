@@ -39,7 +39,8 @@ export default function Home() {
           code
         </h2>
         <p className="text-white text-lg mb-8">
-          Invite the bot, pick a channel, and you're set—no custom code needed, and no <br /> vendor lock-in.
+          {/* para que no de error */}
+          Invite the bot, pick a channel, and you&apos;re set&mdash;no custom code needed, and no <br /> vendor lock-in.
         </p>
         <img
           src="/imagen.png"
