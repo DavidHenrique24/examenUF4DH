@@ -24,6 +24,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  //agrege el fondo negro y la fuente ya estaba de antes
   return (
     <html lang="en">
       <body className={`bg-black ${geistSans.variable} ${geistMono.variable}`}>
