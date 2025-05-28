@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="bg-black min-h-screen p-5 pb-60 gap-20 flex flex-col items-center justify-center mt-20 font-[family-name:var(--font-inter]">
+    <div className="bg-black min-h-screen p-5 pb-60 gap-20 flex flex-col items-center justify-center mt-20 font-[family-name:var(--font-geist-sans)]">
       
       <section className="max-w-4xl text-center">
         <h2 className="text-white text-6xl font-bold mb-4">
