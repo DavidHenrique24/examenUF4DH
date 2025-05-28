@@ -1,18 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./componentes/header";
 import Footer from "./componentes/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Examen David Henrique UF4",
@@ -25,10 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  //agrege el fondo negro y la fuente ya estaba
+  //agrege el fondo negro y la fuente 
   return (
     <html lang="en">
-      <body className={`bg-black ${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`bg-black ${inter.variable} `}>
      
           <Header />
         <main>{children}</main>
